@@ -1,8 +1,6 @@
-import {Address, NetworkEnum} from '@1inch/fusion-sdk'
-
-const TrueERC20 = new Address('0xda0000d4000015a526378bb6fafc650cea5966f8')
-const ZKTrueERC20 = new Address('0xd66097c27eb8dee404bac235737932260edc6f3b')
-
+import { Address, NetworkEnum } from '@1inch/fusion-sdk';
+const TrueERC20 = new Address('0xda0000d4000015a526378bb6fafc650cea5966f8');
+const ZKTrueERC20 = new Address('0xd66097c27eb8dee404bac235737932260edc6f3b');
 export const TRUE_ERC20 = {
     [NetworkEnum.ETHEREUM]: TrueERC20,
     [NetworkEnum.POLYGON]: TrueERC20,
@@ -20,27 +18,13 @@ export const TRUE_ERC20 = {
     [NetworkEnum.SEPOLIA]: new Address(''),
     [NetworkEnum.ETHERLINK_TESTNET]: new Address(''),
     [NetworkEnum.TEZOS]: new Address('')
-}
-
-const ESCROW_FACTORY_ADDRESS = new Address(
-    '0xa7bcb4eac8964306f9e3764f67db6a7af6ddf99a'
-)
-const ESCROW_ZK_FACTORY_ADDRESS = new Address(
-    '0x584aeab186d81dbb52a8a14820c573480c3d4773'
-)
-const ESCROW_SRC_IMPLEMENTATION_ADDRESS = new Address(
-    '0xcd70bf33cfe59759851db21c83ea47b6b83bef6a'
-)
-const ESCROW_ZK_SRC_IMPLEMENTATION_ADDRESS = new Address(
-    '0xddc60c7babfc55d8030f51910b157e179f7a41fc'
-)
-const ESCROW_DST_IMPLEMENTATION_ADDRESS = new Address(
-    '0x9c3e06659f1c34f930ce97fcbce6e04ae88e535b'
-)
-const ESCROW_ZK_DST_IMPLEMENTATION_ADDRESS = new Address(
-    '0xdc4ccc2fc2475d0ed3fddd563c44f2bf6a3900c9'
-)
-
+};
+const ESCROW_FACTORY_ADDRESS = new Address('0xa7bcb4eac8964306f9e3764f67db6a7af6ddf99a');
+const ESCROW_ZK_FACTORY_ADDRESS = new Address('0x584aeab186d81dbb52a8a14820c573480c3d4773');
+const ESCROW_SRC_IMPLEMENTATION_ADDRESS = new Address('0xcd70bf33cfe59759851db21c83ea47b6b83bef6a');
+const ESCROW_ZK_SRC_IMPLEMENTATION_ADDRESS = new Address('0xddc60c7babfc55d8030f51910b157e179f7a41fc');
+const ESCROW_DST_IMPLEMENTATION_ADDRESS = new Address('0x9c3e06659f1c34f930ce97fcbce6e04ae88e535b');
+const ESCROW_ZK_DST_IMPLEMENTATION_ADDRESS = new Address('0xdc4ccc2fc2475d0ed3fddd563c44f2bf6a3900c9');
 export const ESCROW_SRC_IMPLEMENTATION = {
     [NetworkEnum.ETHEREUM]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.POLYGON]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
@@ -55,13 +39,10 @@ export const ESCROW_SRC_IMPLEMENTATION = {
     [NetworkEnum.LINEA]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.SONIC]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.UNICHAIN]: ESCROW_SRC_IMPLEMENTATION_ADDRESS,
-    [NetworkEnum.SEPOLIA]: new Address(
-        '0xa17ddb01f03a42e0070a0e25099cf3d27b705fff'
-    ),
+    [NetworkEnum.SEPOLIA]: new Address('0xa17ddb01f03a42e0070a0e25099cf3d27b705fff'),
     [NetworkEnum.ETHERLINK_TESTNET]: new Address(''),
     [NetworkEnum.TEZOS]: new Address('')
-}
-
+};
 export const ESCROW_DST_IMPLEMENTATION = {
     [NetworkEnum.ETHEREUM]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.POLYGON]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
@@ -76,13 +57,10 @@ export const ESCROW_DST_IMPLEMENTATION = {
     [NetworkEnum.LINEA]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.SONIC]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
     [NetworkEnum.UNICHAIN]: ESCROW_DST_IMPLEMENTATION_ADDRESS,
-    [NetworkEnum.SEPOLIA]: new Address(
-        '0x7490329e69ab8e298a32dc59493034e4d02a5ccf'
-    ),
+    [NetworkEnum.SEPOLIA]: new Address('0x7490329e69ab8e298a32dc59493034e4d02a5ccf'),
     [NetworkEnum.ETHERLINK_TESTNET]: new Address(''),
     [NetworkEnum.TEZOS]: new Address('')
-}
-
+};
 export const ESCROW_FACTORY = {
     [NetworkEnum.ETHEREUM]: ESCROW_FACTORY_ADDRESS,
     [NetworkEnum.POLYGON]: ESCROW_FACTORY_ADDRESS,
@@ -97,9 +75,8 @@ export const ESCROW_FACTORY = {
     [NetworkEnum.LINEA]: ESCROW_FACTORY_ADDRESS,
     [NetworkEnum.SONIC]: ESCROW_FACTORY_ADDRESS,
     [NetworkEnum.UNICHAIN]: ESCROW_FACTORY_ADDRESS,
-    [NetworkEnum.SEPOLIA]: new Address(
-        '0x61a32a9263c6ff568c66799a94f8fe09c1db7a66'
-    ),
+    [NetworkEnum.SEPOLIA]: new Address('0x61a32a9263c6ff568c66799a94f8fe09c1db7a66'),
     [NetworkEnum.ETHERLINK_TESTNET]: new Address(''),
     [NetworkEnum.TEZOS]: new Address('')
-}
+};
+//# sourceMappingURL=deployments.js.map
